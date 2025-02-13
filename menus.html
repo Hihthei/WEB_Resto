@@ -14,7 +14,9 @@
         <header>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">On dit Galettes !</a>
+                    <a class="navbar-brand" href="index.html">
+                        <img src="assets/img/logo.png" alt="On dit Galettes" class="img-fluid" style="height: 100px;">
+                    </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -38,11 +40,101 @@
 
         <main>
             <section class="container mt-5">
-                <h1>Les menus de la semaine</h1>
-
+                <h1 class="text-center mb-4">Nos Menus</h1>
+                <div class="row justify-content-center">
+                    <!-- Menu du Terroir -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 shadow">
+                            <div class="card-header bg-primary text-white text-center">
+                                <h3 class="card-title mb-0">Menu du Terroir</h3>
+                                <p class="mb-0">17.90€</p>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="text-muted mb-3">Une galette au choix</h5>
+                                <ul class="list-unstyled">
+                                    <li><i class="fas text-success me-2"></i>Complète (œuf, jambon, fromage)</li>
+                                    <li><i class="fas text-success me-2"></i>Forestière (champignons, lardons, crème)</li>
+                                    <li><i class="fas text-success me-2"></i>Paysanne (pommes de terre, oignons, lardons)</li>
+                                </ul>
+                                <h5 class="text-muted mb-3">Une crêpe au choix</h5>
+                                <ul class="list-unstyled">
+                                    <li><i class="fas text-success me-2"></i>Beurre sucre</li>
+                                    <li><i class="fas text-success me-2"></i>Chocolat maison</li>
+                                    <li><i class="fas text-success me-2"></i>Caramel au beurre salé</li>
+                                </ul>
+                                <h5 class="text-muted mb-3">Boisson</h5>
+                                <ul class="list-unstyled mb-0">
+                                    <li><i class="fas text-success me-2"></i>Bolée de cidre ou Soda</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Menu Gourmand -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 shadow">
+                            <div class="card-header bg-success text-white text-center">
+                                <h3 class="card-title mb-0">Menu Gourmand</h3>
+                                <p class="mb-0">22.90€</p>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="text-muted mb-3">Une entrée au choix</h5>
+                                <ul class="list-unstyled">
+                                    <li><i class="fas text-success me-2"></i>Soupe à l'oignon gratinée</li>
+                                    <li><i class="fas text-success me-2"></i>Salade bretonne</li>
+                                </ul>
+                                <h5 class="text-muted mb-3">Une galette au choix</h5>
+                                <ul class="list-unstyled">
+                                    <li><i class="fas text-success me-2"></i>Toutes nos galettes</li>
+                                </ul>
+                                <h5 class="text-muted mb-3">Une crêpe au choix</h5>
+                                <ul class="list-unstyled">
+                                    <li><i class="fas text-success me-2"></i>Toutes nos crêpes</li>
+                                </ul>
+                                <h5 class="text-muted mb-3">Boisson</h5>
+                                <ul class="list-unstyled mb-0">
+                                    <li><i class="fas text-success me-2"></i>25cl de cidre ou Soda</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Menu Enfant -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 shadow">
+                            <div class="card-header bg-info text-white text-center">
+                                <h3 class="card-title mb-0">Menu P'tit Breton</h3>
+                                <p class="mb-0">9.90€</p>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="text-muted mb-3">Une galette au choix</h5>
+                                <ul class="list-unstyled">
+                                    <li><i class="fas text-success me-2"></i>Jambon fromage</li>
+                                    <li><i class="fas text-success me-2"></i>Œuf fromage</li>
+                                </ul>
+                                <h5 class="text-muted mb-3">Une crêpe au choix</h5>
+                                <ul class="list-unstyled">
+                                    <li><i class="fas text-success me-2"></i>Nutella</li>
+                                    <li><i class="fas text-success me-2"></i>Confiture</li>
+                                    <li><i class="fas text-success me-2"></i>Sucre</li>
+                                </ul>
+                                <h5 class="text-muted mb-3">Boisson</h5>
+                                <ul class="list-unstyled mb-0">
+                                    <li><i class="fas text-success me-2"></i>Sirop à l'eau ou Soda</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
-            <section class="container mt-5">
-                
+        
+            <section class="container mt-5 mb-5">
+                <div class="alert alert-info text-center" role="alert">
+                    <i class="fas fa-info-circle me-2"></i>
+                    Tous nos menus sont servis avec une bolée de cidre breton ou un verre de soda au choix.
+                    <br>
+                    <small>Allergènes : n'hésitez pas à nous consulter pour plus d'informations.</small>
+                </div>
             </section>
         </main>
 
